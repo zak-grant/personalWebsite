@@ -1,5 +1,8 @@
-$primary-color: #444;
-$secondary-color: #eece1a;
+// $primary-color: #7f0909;
+$primary-color: #065d5e;
+// $primary-color: #444;
+// $secondary-color: #eece1a;
+$secondary-color: #ee9506;
 $show-home-image: true;
 $home-image: url(../img/background.jpg);
 $background-opacity: 0.9;
@@ -14,6 +17,7 @@ $background-opacity: 0.9;
       background: $home-image;
       background-attachment: fixed;
       background-size: cover;
+      overflow: hidden;
 
       &:after {
         content: "";
